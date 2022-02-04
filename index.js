@@ -1,3 +1,11 @@
+//DOMContentLoaded
+console.log("before!");
+window.addEventListener("DOMContentLoaded", (event) => {
+  console.log("loaded!");
+});
+console.log("Aftter!");
+
+
 const heading = document.querySelector("h1");
 console.log(heading);
 
